@@ -1,0 +1,33 @@
+:root {
+    --primary-color: black;
+    --primary-color-highlight: rgb(98, 22, 22);
+    --bs-body-bg: rgb(246, 232, 232);
+    --bs-body-font-family: Square Peg;
+
+
+}
+
+/*header*/
+.header {
+
+    z-index: index 2;
+}
+
+/*navbar*/
+#navbar {
+    position: fixed;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: rgb(213, 160, 160);
+    z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background-color: aqua;
+
+}
