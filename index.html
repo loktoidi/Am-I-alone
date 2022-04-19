@@ -13,7 +13,7 @@
     <!--fontti-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster:wght@700&family=Square+Peg:wght@400;700&display=swap" rel="stylesheet">
 
     <!--bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -22,15 +22,14 @@
 
 <body>
      <!--Header alku-->
-    <header class="header p-3 position-absolute start-0 top-0 end-0 "
-       style="background-color: rgb(156, 32, 32);"> 
-
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+               
         <div class="d-flex justify-content-between align-items-center">
             <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Am I alone</a>
         
             <div>
                 <button class="navbar-toggler text-white" type="button" 
-                data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
+                 data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
                  aria-expanded="false" aria-label="Toggle Navigation">
                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list-nested" 
                     viewBox="0 0 16 16">
@@ -46,27 +45,58 @@
 
      <!--Header loppuu-->
 
+     <!--flyout navi alkaa-->
+
      <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
 
-       <div class="container-fluid">
+      <div class="dropdown-nav__container container-xxl d-flex align-items-start
+      align-items-md-center">
 
-          <div class="row align-items-start"> 
+        <div class="row align-items-start">
+
+          <div class="col-12 col-sm-4 mt-4"> 
 
             <a href="#" class="row text-decoration-none">
-
-              <div class="col-2 col-sm-12 mb-4">
-                
+              <div class="col-12 col-sm-12 mb-4">
+                <img src="/images/heroine.jpg" alt="star" 
+                 class="img-fluid" width="553" height="746" Loading="lazy">
               </div>
               <div class="col-10">
-                <h3>How the world will be</h3>
-                <p>Who she is</p>
-                <p>Preorder now! <i class="bi bi-arrow-right-short"></i></p>
+                <h3>She is just a girl who has already lost everything</h3>
               </div>
             </a>
 
-            </div>
+          </div>
 
-          </div> 
+          <div class="col-12 col-sm-4 mt-4"> 
+
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img src="/images/hope.webp" alt="hope" 
+                 class="img-fluid" width="553" height="746" Loading="lazy">
+              </div>
+              <div class="col-10">
+                <p>Who is she?</p>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="col-12 col-sm-4 mt-4"> 
+
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img src="/images/preorder.jpg" alt="fear" 
+                 class="img-fluid" width="553" height="746" Loading="lazy">
+              </div>
+              <div class="col-10">
+                <p>Preorder now! <i class="bi bi-arrow-right-short"></i></p>
+              </div>
+            </a>
+          </div>
+        </div> 
+
+          
 
            
 
@@ -78,13 +108,199 @@
                   </svg>
                   
         </button>
+       
       </div>
-     </nav>
+     
+    </nav>
+    <!--Flyout navi loppuu-->
+
+
     
-  
+    <!--Etusivu alkaa -->
+
+    <section class="hero">
+
+      
+
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" Loop="loop"
+      Loading="lazy" class="hero__video">
+      <source src=" /images/hero.mp4" type="video/mp4">
+
+
+      </video>
+
+      <div class="hero__content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero__content-width">
+          <div class="text-white">
+            <h1 class="hero__heading fw-bold mb-4">2023 was not an ordinary year</h1>
+            <p class="lead mb-4">This was not a world I wanted but it was the one
+              I found myself in.</p>
+              <a href="#" class="mt-2 btn btn-lg btn-outline-light" 
+              role="button">Preorder now!</a>
+
+          </div>
+        </div>
+      </div>
+
+    <a href="scroll-down" class="hero__scroll-btn">
+      learn more<i class="bi bi-arrow-down-short"></i>
+    </a>  
+
+    </section> 
+
+    <!--etusivu päättyy-->
+    
+    <a id="scroll-down"></a>
+
+    <!--toinen sivu alkaa-->
+    <!--eka kuvarivi alkaa-->
+    <section class="second container-custom">
+
+      <div class="row">
+        <div class="col-12 col-sm-6 md-flex justify-content-md-center">
+          <img src="/images/revenge.jpg" alt="revenge" class="img-fluid pb-4 second__section-thumbnail"
+           width="300" height="446" loading="lazy">
+        </div>
+      
+        <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+          <div class="second__content-width">
+            
+            <h2 class="h2 mb-4">Old photos</h2>
+            <p class="mb-4">Where there is hope...</p>
+            <a href="#">Read more <i class=bi bi arrow-right></i></a>
+
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+<!--eka kuvarivi loppuu-->
+
+<!--toka kuvarivi alkaa-->
+
+    <section class="second second--background">
+
+      <div class="container-custom"></div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 md-flex justify-content-md-center order-sm-1">
+          <img src="/images/girl.gif" alt="girl" class="img-fluid pb-4 second__section-thumbnail"
+           width="350" height="546" loading="lazy">
+        </div>
+      
+        <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+          <div class="second__content-width">
+            
+            <h2 class="h2 mb-4">Alone</h2>
+            <p class="mb-4">there is also despair...</p>
+            <a href="#">Read more <i class=bi bi arrow-right></i></a>
+
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+<!--toka kuvarivi loppuu-->
+
+<!--kolmas kuvarivi alkaa-->
+
+    <section class="second container-custom">
+
+      <div class="row">
+        <div class="col-12 col-sm-6 md-100% justify-content-md-center">
+          <img src="/images/survivor.jpg" alt="survivor" class="img-fluid pb-4 second__section-thumbnail"
+           width="300" height="446" loading="lazy">
+        </div>
+      
+        <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+          <div class="second__content-width">
+            
+            <h2 class="h2 mb-4">Do not give up</h2>
+            <p class="mb-4">and despair can be end of all hope.</p>
+            <a href="#">Read more <i class=bi bi arrow-right></i></a>
+
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+    <!--kolmas kuvarivi loppuu-->
+
+    <!--toinen sivu päättyy-->
+
+    <!--kolmas sivu alkaa-->
+
+    <section class="bg-dark text-white py-4">
+
+    <div class="container-custom my-4">
+      <div class="row">
+
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="/images/fear.jpg" class="mb-4 img-fluid" alt="fear"
+          width="441" height="248" Loading="lazy">
+          <h3>Neverending search</h3>
+          <p>Where are you now, alone just like me..</p>
+        </div>  
+
+
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="/images/hope.webp" class="mb-4 img-fluid" alt="hope"
+          width="441" height="248" Loading="lazy">
+          <h3>Take me on</h3>
+          <p>You're all the things I've got to remember.
+            You're shying away I'll be coming for you anyway.
+            I may be gone in a day or two..</p>
+        </div>  
 
 
 
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="/images/star.jpg" class="mb-4 img-fluid" alt="star"
+          width="441" height="248" Loading="lazy">
+          <h3>Revenge</h3>
+          <p>Sometimes it is your only fuel to keep going.</p>
+        </div>  
+
+
+      </div>
+
+    </div>
+
+    </section>
+
+  <!--kolmas sivu päättyy-->
+
+  <!--footer alkaa-->
+  <footer class="footer bg-dark text-white">
+    <div class="container-custom d-flex justify-content-between
+         align-items-center py-3 border-highlight">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="me-2 text-muted">
+          <i class="bi bi-cup"></i>
+          <span>&copy; 2022 Am I alone</span>
+        </a>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-linkedin"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i>></a></li>
+      </ul>
+
+
+    </div>
+
+
+
+  </footer>
+
+
+
+  <!--footer loppuu-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
@@ -94,28 +310,3 @@
 </html>
 
 
-<!--  <nav class="navbar navbar-expand-lg navbar-light"
-            style="background-color: #bc27a6;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>-->
