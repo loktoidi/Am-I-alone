@@ -24,27 +24,10 @@ a:hover { color: var(--primary-color); }
 /*etusivu teksti container*/
 .container-custom {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 2rem;
     margin:0 auto;
 }
 
-@media (min-width: 1200px) {
-    .container-custom 
-       {width: 1140%;}
-       
-}
-
-@media (min-width: 1400px) {
-    .container-custom 
-        {width: 1340%;}
-       
-}
-
-@media (min-width: 1600px) {
-    .container-custom 
-        {width: 1520%;}
-       
-}
 
 /*header*/
 .header {
@@ -123,7 +106,7 @@ h1 {
 }
 
 .hero__content-width {
-    max-width: 540px;
+    max-width: 100%; /*vaihtoehto 540px*/
 }
 
 .hero__scroll-btn {
