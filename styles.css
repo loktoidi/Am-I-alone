@@ -143,15 +143,6 @@ h1 {
 
 /*toinen sivu alkaa*/
 
-p {
-    font-size: 3rem;
-    text-shadow: 0px -1px black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-h2, h3 {
-    font-size: 2.5rem;
-    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 a {
     font-size: 2rem;
@@ -175,7 +166,7 @@ a {
 }
 
 .second--background {
-    background-color: rgb(208, 119, 55);
+    background-color: rgb(44, 41, 40);
    
 }
 
