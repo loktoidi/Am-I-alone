@@ -1,0 +1,15 @@
+//variables
+
+$bloodRed: rgb(140, 17, 17);
+$snowWhite: rgb(241, 242, 246);
+$heroHeading: 5rem;
+
+.hero__scroll-btn:hover {
+    color: $bloodRed;
+}
+
+h1, .h2, h2 {
+    font-size: $heroHeading;
+    color: $bloodRed;
+}
+
