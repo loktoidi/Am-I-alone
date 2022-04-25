@@ -193,3 +193,50 @@ a {
 }
 
 /*footer loppuu*/
+
+#infosivu {
+    background: url(/images/info.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    display: flex;
+    align-items: top;
+}
+
+#infosivu h2 {
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0 !important;
+
+}
+
+.container1 {
+    margin-left: 5px;
+    margin-right: 3px;
+    
+}
+
+.accordion-item, .accordion-header {
+    background-color: rgb(185, 185, 185 ) !important;
+    border:none !important;
+    badding:0 !important;
+    margin-bottom: 120px;
+
+}
+
+.accordion-button {
+    background-color: rgb(185, 185, 185 ) !important;
+    width: 100%;
+    height: 60px;
+    color:black !important;
+    font-size: 35px;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+.accordion-body {
+    back
+
+}
