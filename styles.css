@@ -36,7 +36,7 @@ a:hover { color: var(--primary-color); }
 }
 .fs-5 {
     font-size: 3.5rem!important;
-    text-shadow: -1px 0px rgb(226, 16, 16), 0 1px rgb(226, 16, 16), 1px 0 brgb(226, 16, 16), 0 -1px rgb(226, 16, 16);
+    text-shadow: -1px 0px rgb(226, 16, 16), 0 1px rgb(226, 16, 16), 1px 0 rgb(226, 16, 16), 0 -1px rgb(226, 16, 16);
 }
 
 /*navbar*/
@@ -194,6 +194,8 @@ a {
 
 /*footer loppuu*/
 
+/*accordion sivu alkaa*/
+
 #infosivu {
     background: url(/images/info.jpg);
     min-height: 100vh;
@@ -220,7 +222,7 @@ a {
 .accordion-item, .accordion-header {
     background-color: rgb(185, 185, 185 ) !important;
     border:none !important;
-    badding:0 !important;
+    padding:0 !important;
     margin-bottom: 120px;
 
 }
@@ -236,7 +238,4 @@ a {
     text-decoration: none !important;
 }
 
-.accordion-body {
-    back
-
-}
+/*accordion sivu loppuu*/
