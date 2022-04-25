@@ -199,16 +199,27 @@ div > p {
     border: 4px solid rgb(254, 253, 252);
   }
 
-/*footer alkaa*/
+  .right-col{
+      float: center;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+  }
 
-.footer .border-highlight{
-    border-top: 1px solid var(--primary-color-highlight);
+  .right-col p {
+      font-size: 65px;
+      color: rgb(184, 33, 7);
+      font-weight: 400;
+      margin-right: 50px;
 
-}
+  }
+
+  #icon {
+      font-size: 80px;
+      cursor: pointer;
+  }
 
 
-
-/*footer loppuu*/
 
 /*accordion sivu alkaa*/
 
@@ -255,3 +266,11 @@ div > p {
 }
 
 /*accordion sivu loppuu*/
+
+/*footer alkaa*/
+
+.footer .border-highlight{
+    border-top: 1px solid var(--primary-color-highlight);
+}
+
+/*footer loppuu*/
