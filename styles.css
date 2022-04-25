@@ -20,7 +20,6 @@ a:hover { color: var(--primary-color); }
 */
 
 
-
 /*etusivu teksti container*/
 .container-custom {
     width: 100%;
@@ -184,8 +183,21 @@ a {
     height: auto;
 }
 
+div > p {
+    font-style: oblique;
+  }
+
+  [alt~=girl] {
+    border: 4px solid rgb(129, 21, 2);
+  }
 
 /*toinen sivu loppuu*/
+
+/*kolmas sivu alkaa*/
+
+[alt~=fear] {
+    border: 4px solid rgb(254, 253, 252);
+  }
 
 /*footer alkaa*/
 
@@ -193,6 +205,8 @@ a {
     border-top: 1px solid var(--primary-color-highlight);
 
 }
+
+
 
 /*footer loppuu*/
 
