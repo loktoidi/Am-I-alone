@@ -215,8 +215,8 @@ div > p {
   }
 
   #icon {
-      font-size: 80px;
-      cursor: pointer;
+    cursor: pointer;
+      
   }
 
 
@@ -263,6 +263,26 @@ div > p {
     font-weight: bold !important;
     text-align: left !important;
     text-decoration: none !important;
+}
+
+.rateUs {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align:center;
+    background:rgb(3, 3, 3)
+}
+
+.container2 {
+    width: 400px;
+    background: burlywood;
+    padding: 20px 30px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /*accordion sivu loppuu*/
