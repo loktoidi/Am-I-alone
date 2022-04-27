@@ -71,11 +71,27 @@ a:hover { color: var(--primary-color); }
     overflow: hidden;
 
 }
+p {
+    font-size: 4rem;
+    text-shadow: -1px 0px rgb(252, 250, 250), 0 1px rgb(255, 250, 250), 1px 0 rgb(249, 246, 246), 0 -1px rgb(247, 245, 245);
+}
+
 
 h1 {
     font-size: 5rem;
     text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+h2, h3 {
+    font-size: 3rem;
+    text-shadow: -1px 0px rgb(252, 250, 250), 0 1px rgb(255, 250, 250), 1px 0 rgb(249, 246, 246), 0 -1px rgb(247, 245, 245);
+}
+
+.h2 {
+    font-size: 5rem;
+}
+
+
 
 .lead {
     font-size: 3rem;
@@ -123,7 +139,7 @@ h1 {
 }
 
 .hero__scroll-btn:hover {
-    color: rgb(140, 17, 17);
+    color: rgb(191, 20, 20);
 }
 
 .hero__scroll-btn .bi {
@@ -156,9 +172,10 @@ a {
 }
 
 .second__section-thumbnail {
-    height: 240px;
+    height: auto;
     object-fit: cover;
     margin: 0 auto;
+   
 }
 
 .second__content-width {
@@ -179,16 +196,17 @@ a {
     }
 
 
-.second__section-thumbnail {
-    height: auto;
-}
-
+   
 div > p {
     font-style: oblique;
   }
 
   [alt~=girl] {
     border: 3px solid rgb(129, 21, 2);
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5em;
+            
   }
 
 /*toinen sivu loppuu*/
@@ -218,7 +236,9 @@ div > p {
     cursor: pointer;
       
   }
-
+  .pb-4 {
+    padding-bottom: 0rem!important;
+}
 
 
 /*accordion sivu alkaa*/
