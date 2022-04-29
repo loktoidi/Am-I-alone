@@ -251,13 +251,20 @@ div > p {
     background-attachment: fixed;
     display: flex;
     align-items: top;
+    
 }
 
 #infosivu h2 {
     font-weight: 700;
     text-align: center;
-    margin: 50px 0 !important;
+    padding-top: 210px;
+    
+    
 
+}
+
+div.container {
+    margin-top:200px ;
 }
 
 .container1 {
@@ -270,6 +277,7 @@ div > p {
     background-color: rgb(185, 185, 185 ) !important;
     border:none !important;
     padding:0 !important;
+    margin-top: 50px;
     margin-bottom: 120px;
 
 }
