@@ -247,7 +247,7 @@ div > p {
 /*accordion sivu alkaa*/
 
 #infosivu {
-    background: url(/images/info.jpg);
+    background: url(images/info.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: left;
