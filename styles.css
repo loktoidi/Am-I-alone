@@ -147,6 +147,9 @@ h2, h3 {
     animation: bounce 1s infinite alternate;    
 }
 
+.btn-lg {
+    font-size: 3rem;
+}
 
 
 @keyframes bounce {
